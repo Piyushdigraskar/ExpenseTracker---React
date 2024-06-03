@@ -1,0 +1,52 @@
+.section {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.item {
+    background-color: white;
+    border: 1px solid #ccc;
+    color: black;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.premiumButton {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.premiumButton:hover {
+    background-color: #0056b3;
+}
+.dark {
+    /* Add styles for dark theme */
+    background-color: #333;
+    color: #fff;
+}
+
+.linkButton {
+    /* Add your styling here */
+    color: blue; /* Example color */
+    text-decoration: underline; /* Example underline */
+    background-color: transparent; /* Example transparent background */
+    border: none; /* Example no border */
+    cursor: pointer;
+    /* Add more styles as needed */
+}
